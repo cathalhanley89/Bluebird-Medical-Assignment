@@ -1,0 +1,24 @@
+{
+  "title": "Product",
+  "properties": {
+    "price": {
+      "title": "Price",
+      "readOnly": false,
+      "type": "number"
+    },
+    "name": {
+      "title": "Name",
+      "readOnly": false,
+      "type": "string"
+    },
+    "creationDate": {
+      "title": "Creation date",
+      "readOnly": false,
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "definitions": {},
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#"
+}
